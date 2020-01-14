@@ -1,13 +1,15 @@
 ## jQuery plugin to create Range Selector
 
-![jRange Preview](http://i.imgur.com/da8uZwx.png)
-
 This project is a fork of the [original project](https://github.com/nitinhayaran/jRange) written by [Nitin Hayaran](https://github.com/nitinhayaran),
 where some bug fixes identified by the community are integrated:
 
 * Issue 53: [.indexOf not defined](https://github.com/nitinhayaran/jRange/issues/53)
 
-### Documentation
+### Range selector illustration
+
+![jRange Preview](http://i.imgur.com/da8uZwx.png)
+
+### Documentation
 
 [Demo and Documentation](http://nitinhayaran.github.io/jRange/demo/)
 
