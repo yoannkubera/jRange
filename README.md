@@ -4,6 +4,7 @@ This project is a fork of the [original project](https://github.com/nitinhayaran
 where some bug fixes identified by the community are integrated:
 
 * Issue 53: [.indexOf not defined](https://github.com/nitinhayaran/jRange/issues/53)
+* Issue: Ranges were not initialized properly through the 'value' option.
 
 ### Range selector illustration
 
