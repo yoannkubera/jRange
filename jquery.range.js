@@ -10,7 +10,7 @@
  * Licensed under the MIT (MIT-LICENSE.txt).
  *
  * @author Nitin Hayaran
- * @version 0.1-RELEASE
+ * @version 1.1.0
  *
  * Dependencies
  * ------------
@@ -51,7 +51,7 @@
 		init: function(node, options) {
 			this.options       = $.extend({}, this.defaults, options);
 			this.inputNode     = $(node);
-			this.options.value = this.inputNode.val() || (this.options.isRange ? this.options.from + ',' + this.options.from : '' + this.options.from);
+			this.options.value = this.options.value || this.inputNode.val() || (this.options.isRange ? this.options.from + ',' + this.options.to : '' + this.options.from);
 			this.domNode       = $(this.template);
 			this.domNode.addClass(this.options.theme);
 			this.inputNode.after(this.domNode);
